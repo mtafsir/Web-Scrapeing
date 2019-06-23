@@ -17,7 +17,7 @@ phases:
 artifacts:
   files:
     - buildspec.yml
-    - Appspec.yml
+    - appspec.yml
 cache:
   paths:
     - '/root/test'
