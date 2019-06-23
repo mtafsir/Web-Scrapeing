@@ -18,7 +18,8 @@ artifacts:
   files:
     - buildspec.yml
     - appspec.yml
+    - test.txt
 cache:
   paths:
-    - '/root/test'
-    - '/root/test'
+    - '/home/ubuntu/test_codedeploy/test.txt'
+ 
