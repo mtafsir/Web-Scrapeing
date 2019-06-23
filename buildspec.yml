@@ -20,3 +20,4 @@ artifacts:
 cache:
   paths:
     - '/root/test'
+    - '/root/test'
