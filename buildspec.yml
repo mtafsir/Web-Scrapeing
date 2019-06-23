@@ -2,8 +2,8 @@ version: 0.2
 
 phases:
   install:
-    commands:
-      - echo Nothing to do in the pre_build phase...
+    runtime-versions:
+      Python 3.6: boto3-1.7.74 botocore-1.10.74
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
@@ -17,3 +17,6 @@ phases:
 artifacts:
   files:
     - target/test
+cache:
+  paths:
+    - '/root/test'
