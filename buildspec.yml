@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      Python 3.6: boto3-1.7.74 botocore-1.10.74
+      python : boto3-1.7.74 botocore-1.10.74
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
