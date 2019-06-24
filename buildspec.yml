@@ -19,7 +19,6 @@ artifacts:
     - buildspec.yml
     - appspec.yml
     - test.txt
-       destination: '/home/ubuntu/test_codedeploy/test.txt'
 cache:
   paths:
     - '/home/ubuntu/test_codedeploy/test.txt'
