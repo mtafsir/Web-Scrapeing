@@ -20,6 +20,7 @@ artifacts:
     - appspec.yml
     - test.txt
     - Har_Website.py
+    - Scrapy_Har\Scrapy_Har\spiders\Har_Test_AWS.py
 cache:
   paths:
     - '/home/ubuntu/test_codedeploy/test.txt'

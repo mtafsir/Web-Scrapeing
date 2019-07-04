@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
-print('Hello it works')
+
 class HarWebsiteSpider(scrapy.Spider):
-    name = "Har_website"
+    name = "Har_Test_AWS"
     allowed_domains = ["har.com/zipcode_75081/realestate/for_sale"]
     start_urls = (
         'http://www.har.com/zipcode_75081/realestate/for_sale',
@@ -23,7 +23,8 @@ class HarWebsiteSpider(scrapy.Spider):
         h1_Price_str = h1_Price_str.split("data=u")
         h1_Price_str[0] = "skip'"
 
-        f=open(r'C:\Users\mtafs\Desktop\Test\Test.txt', 'w+')
+
+        f=open('/home/ubuntu/text_file/Output.txt', 'w+')
         for x in h1_Address_str:
 
                 Address = x[1:len(x)-1]
@@ -40,7 +41,7 @@ class HarWebsiteSpider(scrapy.Spider):
         h1_Price_str[0] = "skip'"
 
 
-        f=open(r'C:\Users\mtafs\Desktop\Test\Test.txt', 'w+')
+        f=open('/home/ubuntu/text_file/Output.txt', 'w+')
         for x in h1_Address_str:
 
                 Address = x[1:len(x)-1]
