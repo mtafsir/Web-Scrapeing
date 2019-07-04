@@ -19,6 +19,7 @@ artifacts:
     - buildspec.yml
     - appspec.yml
     - test.txt
+    - Har_Website.py
 cache:
   paths:
     - '/home/ubuntu/test_codedeploy/test.txt'

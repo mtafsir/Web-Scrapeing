@@ -4,4 +4,4 @@ files:
   - source: test.txt
     destination: /home/ubuntu/test_codedeploy/test.txt
   - source: Har_Website.py
-    destination: /home/ubuntu/test_codedeploy/test.txt	
+    destination: /home/ubuntu/test_codedeploy/test.txt
