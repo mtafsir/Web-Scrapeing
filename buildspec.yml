@@ -24,7 +24,7 @@ artifacts:
 cache:
   paths:
     - '/home/ubuntu/test_codedeploy/test.txt'
-    - '/home/ubuntu/test_codedeploy'
-    - '/home/ubuntu/test_scrapy/test_spider/test_spider/spiders'
+    - '/home/ubuntu/test_codedeploy/Har_Website.py'
+    - '/home/ubuntu/test_scrapy/test_spider/test_spider/spiders/Har_Test_AWS.py'
  
 
