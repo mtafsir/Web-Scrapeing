@@ -4,6 +4,6 @@ files:
   - source: test.txt
     destination: /home/ubuntu/test_codedeploy/test.txt
   - source: Har_Website.py
-    destination: /home/ubuntu/test_codedeploy/Har_Website.py
+    destination: /home/ubuntu/test_codedeploy
   - source: Scrapy_Har\Scrapy_Har\spiders\Har_Test_AWS.py
-    destination: /home/ubuntu/test_scrapy/test_spider/test_spider/spiders/Har_Test_AWS.py
+    destination: /home/ubuntu/test_scrapy/test_spider/test_spider/spiders
