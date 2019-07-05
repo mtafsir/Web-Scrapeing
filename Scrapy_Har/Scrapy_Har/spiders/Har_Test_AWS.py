@@ -24,7 +24,7 @@ class HarWebsiteSpider(scrapy.Spider):
         h1_Price_str[0] = "skip'"
 
 
-        f=open('/home/ubuntu/text_file/Output.txt', 'w+')
+        f=open('/home/ubuntu/text_file/Output1.txt', 'w+')
         for x in h1_Address_str:
 
                 Address = x[1:len(x)-1]
@@ -41,7 +41,7 @@ class HarWebsiteSpider(scrapy.Spider):
         h1_Price_str[0] = "skip'"
 
 
-        f=open('/home/ubuntu/text_file/Output.txt', 'w+')
+        f=open('/home/ubuntu/text_file/Output1.txt', 'w+')
         for x in h1_Address_str:
 
                 Address = x[1:len(x)-1]
